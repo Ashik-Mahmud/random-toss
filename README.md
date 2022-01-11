@@ -4,20 +4,21 @@ Hey Guys! This simple random toss application using vanilla javascript. If you w
 >Thanks by Ashik Mahmud
 
 ### Using Technology
-  HTML5/HTML
-  CSS3/CSS
-  Vanilla JavaScript
-  Git/Github
-  Google Fonts
-  Google Image
+  ✅ HTML5/HTML <br>
+  ✅ CSS3/CSS <br>
+  ✅ Vanilla JavaScript <br>
+  ✅ Git/Github <br>
+  ✅ Google Fonts <br>
+  ✅ Google Image <br>
 
 **That's all technology to made it !**
 
 Here is Live link: [Click Here to Go live](#);
 
-And Here is Screenshot of our Projects 
+#### And Here is Screenshot of our Projects 
 
 ![screenshot](screenshot.png);
 
 
+***❤ Thanks for visiting in my github Account ❤***
 
