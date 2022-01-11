@@ -1,0 +1,168 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+/* ---------------
+        Main style
+-------------------*/
+
+/* winer show section  */
+.winner-select {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #ffffff;
+    left: 0%;
+    top: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.3s ease;
+}
+.winner-select.active{
+    transform: scale(1);
+    opacity: 1;
+}
+.winner-banner{
+    max-width: 100%;
+    height: auto;
+    width: 80%;
+    position: relative;
+    top: 0px;
+}
+.winner-select .wining-image {
+    max-width: 100%;
+    width: 50%;
+}
+.winner-select .winnershow{
+    display: block;
+    margin: 1rem 0rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #273c75;
+}
+.close-window{
+    padding: .4rem 1rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #273c75;
+    color: #f5f6fa;
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Raleway',sans-serif;
+    font-size: 16px;
+    background: #273c75;
+    overflow: hidden;
+}
+
+.toss-content {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+   box-shadow: 6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+   22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+   100px 100px 80px rgba(0, 0, 0, 0.07);
+    position: relative;
+    overflow: hidden;
+
+}
+.head-tails{
+    animation: Animate 5s ease ;
+}
+@keyframes Animate {
+    0%{
+        opacity: 0.2;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+
+button {
+    font-family: 'Raleway',sans-serif;
+}
+button.disabled{
+    opacity: 0.7;
+    pointer-events: none;
+}
+.shownumber {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.toss-container {
+    position: relative;
+    text-align: center;
+}
+
+.toss-content h2 {
+    font-size: 2rem;
+    margin-bottom: 0rem;
+    color: #273c75;
+}
+
+.toss-content .players {
+    display: flex;
+    justify-content: center;
+    margin: .5rem 0rem;
+}
+
+.players div {
+    margin: .5rem 1rem;
+    font-size: 18px;
+}
+
+.players div span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #273c75;
+}
+
+.toss {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 10px solid #273c75;
+    margin: 2rem auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.toss img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+.decision {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: .43rem 0rem;
+}
+
+.decision button {
+    padding: .8rem 2.5rem;
+    margin: .6rem;
+    background: #273c75;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
